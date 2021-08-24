@@ -136,7 +136,7 @@ input, select, textarea {
 		-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-		color: #666;
+		color: #C60C30;
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 	}
@@ -149,17 +149,17 @@ input, select, textarea {
 		}
 
 		a:hover {
-			color: #a826a2;
+			color: #e4e4e4;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			a:hover strong {
-				color: #a826a2;
+				color: #e4e4e4;
 			}
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
+		color: #C60C30;
 	}
 
 	em, i {
@@ -1634,7 +1634,7 @@ input, select, textarea {
 				top: 2.6em;
 				display: block;
 				font-size: 0.8em;
-				background: #878787;
+				background: #000000c4;
 				color: #e4e4e4;
 				width: 2em;
 				height: 2em;
@@ -1657,7 +1657,7 @@ input, select, textarea {
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: rgb(0, 0, 0);
 		display: block;
 		margin: 0 0 1em 0;
 	}
@@ -1674,7 +1674,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #e8e8e8;
+		background: #2e2d2d;
 		width: 100%;
 		box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
 		border-radius: 4px;
@@ -1687,7 +1687,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #f0f0f0;
+			background: #030303;
 		}
 
 	form textarea {
@@ -1740,7 +1740,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			background: #878787;
+			background: #424141;
 			color: #fff;
 			font-weight: 400;
 			text-transform: uppercase;
@@ -1751,8 +1751,8 @@ input, select, textarea {
 		}
 
 		table tfoot {
-			background: #F0F0F0;
-			border-top: solid 2px #E5E5E5;
+			background: #424141;
+			border-top: solid 2px #424141;
 		}
 
 /* Button */
@@ -1769,7 +1769,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #ed786a;
+		background: #a7a3a3;
 		color: #fff !important;
 		text-transform: uppercase;
 		border-radius: 4px;
@@ -1800,7 +1800,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #fd887a;
+			background: #C60C30;
 		}
 
 		input[type="button"]:active,
@@ -1808,7 +1808,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ed786a;
+			background: #C60C30;
 		}
 
 		input[type="button"].alt,
@@ -1816,7 +1816,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #878787;
+			background: #C60C30;
 		}
 
 			input[type="button"].alt:hover,
@@ -1824,7 +1824,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #979797;
+				background: #C60C30;
 			}
 
 			input[type="button"].alt:active,
@@ -1832,7 +1832,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #878787;
+				background: #C60C30;
 			}
 
 /* Box */
@@ -1842,7 +1842,7 @@ input, select, textarea {
 	}
 
 	.box.excerpt .date {
-		background: #878787;
+		background: #241773;
 		color: #fff;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -1961,14 +1961,14 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #888;
 				outline: 0;
 				display: block;
 			}
 
 				#nav > ul > li > a:before {
 					display: inline-block;
-					background: #878787;
+					background: #888;
 					color: #e4e4e4;
 					width: 2.25em;
 					font-size: 0.8em;
@@ -2001,20 +2001,20 @@ input, select, textarea {
 
 			#nav > ul > li.active > a:before,
 			#nav > ul > li:hover > a:before {
-				background: #ED786A;
+				background: #C60C30;
 				color: #fff;
 			}
 
 			#nav > ul > li.active > a > span,
 			#nav > ul > li:hover > a > span {
-				color: #ED786A;
+				color: #C60C30;
 			}
 
 	.dropotron {
 		text-align: left;
 		border: solid 1px #e5e5e5;
 		border-radius: 4px;
-		background: #fff;
+		background: #424141;
 		background: rgba(255, 255, 255, 0.965);
 		box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
 		padding: 0.75em 0 0.5em 0;
@@ -2074,7 +2074,7 @@ input, select, textarea {
 				-webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				-ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 				transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-				color: #ed786a;
+				color: #C60C30;
 			}
 
 /* Features */
@@ -2082,7 +2082,7 @@ input, select, textarea {
 	#features {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #241773;
 		text-align: center;
 		padding: 6em 0;
 	}
@@ -2100,7 +2100,7 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #9E7C0C;
 		color: #fff;
 		text-align: center;
 		border-top: solid 2px #e5e5e5;
@@ -2159,7 +2159,7 @@ input, select, textarea {
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
+		background: #424141;
 		padding: 6em 0;
 	}
 
@@ -2205,7 +2205,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
-		background: #f0f0f0;
+		background: #241773;
 		padding: 6em 0 8em 0;
 	}
 
@@ -2419,7 +2419,7 @@ input, select, textarea {
 						display: block;
 						width: 60px;
 						height: 40px;
-						background: rgba(232, 232, 232, 0.9);
+						background: rgba(7, 7, 7, 0.9);
 						border-radius: 4px;
 						position: absolute;
 						left: 5px;
